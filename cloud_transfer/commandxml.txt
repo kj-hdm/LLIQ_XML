@@ -1,0 +1,2 @@
+opencv_traincascade -data output/ -vec ~/Desktop/xml_training/cropped.vec -bg neglist.txt -numPos 1000 -numNeg 600 -numStages 10 -precalcValBufSize 256 -precalcIdxBufSize 256 -featureType HAAR -minHitRate 0.995 -maxFalseAlarmRate 0.5 -w 24 -h 24
+
